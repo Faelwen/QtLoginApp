@@ -21,7 +21,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    SecondDialog *SecondDialog;
+    SecondDialog *secondDialog;
 };
 
 #endif // MAINWINDOW_H

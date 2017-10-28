@@ -21,6 +21,9 @@ void MainWindow::on_pushButton_login_clicked()
 
     if(username == "test" && password == "test") {
         QMessageBox::information(this, "Login", "Username and passord is correct");
+        hide();
+        SecondDialog = new SecondDialog(this);
+        SecondDialog->show();
     } else {
         QMessageBox::warning(this, "Login", "Username or password is not correct");
     }
